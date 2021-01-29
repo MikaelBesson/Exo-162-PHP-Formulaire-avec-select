@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    width: 30%;
+    border: 2px solid black;
+    background-color: #598a8a;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto auto;
+}
+
+.nom {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.prenom {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.input {
+    padding-left: 30%;
+}
+
+#formPhp {
+    border: 2px solid black;
+    margin: auto;
+    padding-top: 10px;
+    background-color: #338c8c;
+}
